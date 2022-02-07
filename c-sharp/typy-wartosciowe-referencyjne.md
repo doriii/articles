@@ -114,13 +114,13 @@ Teraz ten sam przykład, z **wykorzystaniem typów referencyjnych**:
 	        Osoba osoba2 = osoba1;
 	        
 	        Console.WriteLine(osoba1.imie); // wyswietli Karol
-	        Console.WriteLine(osoba1.imie); // wyswietli Karol
+	        Console.WriteLine(osoba2.imie); // wyswietli Karol
 	        
 	        osoba1.imie = "Karol";
 	        osoba2.imie = "Arek";
 	        
 	        Console.WriteLine(osoba1.imie); // wyswietli Arek
-	        Console.WriteLine(osoba1.imie); // wyswietli Arek
+	        Console.WriteLine(osoba2.imie); // wyswietli Arek
 	        
 	        Console.ReadKey();
 	    }
